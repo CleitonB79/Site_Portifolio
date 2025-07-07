@@ -1,0 +1,66 @@
+/* css/estilo.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+nav {
+  background-color: #222;
+  padding: 1em;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.apresentacao {
+  padding: 2em;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #222;
+  color: #fff;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 0.7em 1.5em;
+  border: none;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #444;
+}
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu li {
+    margin: 10px 0;
+  }
+}
